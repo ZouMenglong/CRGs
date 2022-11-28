@@ -42,4 +42,3 @@ cluster$Cluster=paste0("C", cluster$Cluster)
 outTab=cbind(t(data), cluster)
 outTab=rbind(ID=colnames(outTab), outTab)
 write.table(outTab, file="cluster.txt", sep="\t", quote=F, col.names=F)
-
