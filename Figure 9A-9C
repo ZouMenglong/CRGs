@@ -2,7 +2,6 @@
 #install.packages("rms")
 #install.packages("rmda")
 
-
 #引用包
 library(rms)
 library(rmda)
